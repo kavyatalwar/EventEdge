@@ -14,10 +14,15 @@ from io import BytesIO
 import pytz
 import json
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 # ================== APP SETUP ==================
 app = Flask(__name__)
-app.secret_key = "eventedge_secret"
-
+app.secret_key = os.getenv("SECRET_KEY", "fallback_secret_key")
+                           
 # ================== DATABASE ==================
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///eventedge.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -28,12 +33,13 @@ login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 
 # ================== EMAIL ==================
+# ================== EMAIL ==================
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'eventedge.notifier@gmail.com'
-app.config['MAIL_PASSWORD'] = 'YOUR_APP_PASSWORD'
-app.config['MAIL_DEFAULT_SENDER'] = 'eventedge.notifier@gmail.com'
+app.config['MAIL_USERNAME'] = os.getenv("MAIL_USERNAME")
+app.config['MAIL_PASSWORD'] = os.getenv("MAIL_PASSWORD")
+app.config['MAIL_DEFAULT_SENDER'] = os.getenv("MAIL_USERNAME")
 mail = Mail(app)
 
 # ================== TIMEZONE ==================
@@ -469,6 +475,17 @@ def download_event(event_id):
         download_name=f"{event.name}_details.pdf",
         mimetype='application/pdf'
     )
+
+# ------------------ ACTIVITY LOGS ------------------ 
+@app.route('/admin/activity-logs') 
+@login_required 
+def activity_logs(): 
+    if current_user.role != "admin": 
+        flash("Access denied", "error") 
+        return redirect(url_for('welcome')) 
+    logs = ActivityLog.query.order_by(ActivityLog.timestamp.desc()).all() 
+    for log in logs: log.display_time = log.timestamp.astimezone(IST).strftime('%d %b %Y • %I:%M %p') 
+    return render_template("activity_logs.html", logs=logs)
 
 
 # ------------------ CREATE ADMIN ------------------ 
