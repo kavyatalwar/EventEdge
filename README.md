@@ -123,26 +123,25 @@ EventEdge follows a modular full-stack architecture:
 ## 📸 Application Preview
 
 ### 🏠 Welcome Screen
-![Welcome Screen](screenshots/Welcome Screen.png)
+![Welcome Screen](screenshots/Welcome%20Screen.png)
 
 ### 🔐 Login Page
-![Login Page](screenshots/Login Page.png)
+![Login Page](screenshots/Login%20Page.png)
 
-### 📊 Admin Dashboard Page
-![Admin Dashboard](screenshots/Admin Dashboard Page.png)
+### 📊 Admin Dashboard
+![Admin Dashboard](screenshots/Admin%20Dashboard%20Page.png)
 
-### 📅 Event Creation Page
-![Event Creation](screenshots/Event Creation Page.png)
+### 📅 Event Creation
+![Event Creation](screenshots/Event%20Creation%20Page.png)
 
 ### 👥 Core Committee Details
-![Core Committee](screenshots/Core Commitee Details.png)
+![Core Committee](screenshots/Core%20Commitee%20Details.png)
 
-### 📧 Email Review Page
-![Email Review](screenshots/Email Review Page.png)
+### 📧 Email Review
+![Email Review](screenshots/Email%20Review%20Page.png)
 
 ### 📄 Generated Report Preview
-![Report](screenshots/Generated Report Preview.png)
-
+![Report](screenshots/Generated%20Report%20Preview.png)
 ---
 
 ## 🎥 Demo Video
