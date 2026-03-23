@@ -148,7 +148,7 @@ EventEdge follows a modular full-stack architecture:
 ## 🎥 Demo Video
 
 [Watch Full Demo](#)  
-<!-- Replace # with your Google Drive / YouTube link -->
+https://drive.google.com/file/d/1Gzhg2wNOZy57DVyDogRPl1DcT--6_lSx/view?usp=sharing
 
 ---
 
@@ -190,7 +190,7 @@ EventEdge solves a real-world problem where event management in institutions is 
 This system introduces automation, centralized control, and structured workflows to improve coordination, communication, and execution of events.
 
 It demonstrates the ability to build practical, scalable solutions that can be extended into real-world applications or SaaS platforms.
-```
+
 
 ## 📈 Future Enhancements
 * 📊 **Advanced Analytics:** Visual dashboard for event trends.
