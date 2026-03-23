@@ -130,7 +130,8 @@ EventEdge follows a modular full-stack architecture:
 ---
 
 ## ⭐ Author
-**Kavya Talwar** *B.Sc. (Mathematics, Computer Science, Statistics)* **Aspiring Data Analyst**
+**Kavya Talwar** *B.Sc. (Mathematics, Computer Science, Statistics)* 
+**Aspiring Data Analyst**
 
 ---
 
