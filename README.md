@@ -147,7 +147,7 @@ EventEdge follows a modular full-stack architecture:
 
 ## 🎥 Demo Video
 
-[Watch Full Demo](#) https://drive.google.com/file/d/1Gzhg2wNOZy57DVyDogRPl1DcT--6_lSx/view?usp=sharing
+[Watch Full Demo](https://drive.google.com/file/d/1Gzhg2wNOZy57DVyDogRPl1DcT--6_lSx/view?usp=sharing)
 
 ---
 
