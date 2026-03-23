@@ -1,4 +1,3 @@
-```markdown
 # 🚀 EventEdge – Intelligent Event Management System
 
 ## 📌 Overview
