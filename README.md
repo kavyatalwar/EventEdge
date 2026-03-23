@@ -120,6 +120,78 @@ EventEdge follows a modular full-stack architecture:
 
 ---
 
+## 📸 Application Preview
+
+### 🏠 Welcome Screen
+![Welcome Screen](screenshots/Welcome Screen.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/Login Page.png)
+
+### 📊 Admin Dashboard Page
+![Admin Dashboard](screenshots/Admin Dashboard Page.png)
+
+### 📅 Event Creation Page
+![Event Creation](screenshots/Event Creation Page.png)
+
+### 👥 Core Committee Details
+![Core Committee](screenshots/Core Commitee Details.png)
+
+### 📧 Email Review Page
+![Email Review](screenshots/Email Review Page.png)
+
+### 📄 Generated Report Preview
+![Report](screenshots/Generated Report Preview.png)
+
+---
+
+## 🎥 Demo Video
+
+[Watch Full Demo](#)  
+<!-- Replace # with your Google Drive / YouTube link -->
+
+---
+
+## 📁 Project Structure
+
+```
+
+EventEdge/
+│
+├── app.py
+├── templates/
+├── static/
+├── screenshots/
+├── requirements.txt
+├── README.md
+└── .env (not included for security)
+
+```
+
+---
+
+## 📚 Key Learnings
+
+- Built a full-stack web application using Flask  
+- Implemented secure authentication with Flask-Login  
+- Designed relational database models using SQLAlchemy  
+- Integrated email automation using Flask-Mail (SMTP)  
+- Generated dynamic PDF reports using ReportLab  
+- Implemented session-based workflows for multi-step processes  
+- Applied environment variable security using `.env`  
+- Developed admin-level filtering, sorting, and tracking features  
+
+---
+
+## 🌟 Why This Project?
+
+EventEdge solves a real-world problem where event management in institutions is often manual, unstructured, and inefficient.  
+
+This system introduces automation, centralized control, and structured workflows to improve coordination, communication, and execution of events.
+
+It demonstrates the ability to build practical, scalable solutions that can be extended into real-world applications or SaaS platforms.
+```
+
 ## 📈 Future Enhancements
 * 📊 **Advanced Analytics:** Visual dashboard for event trends.
 * 📱 **Mobile App:** Integration for on-the-go management.
