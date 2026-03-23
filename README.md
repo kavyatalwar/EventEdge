@@ -60,8 +60,8 @@ EventEdge follows a modular full-stack architecture:
 * Password hashing using **Werkzeug** * Role-based access control (RBAC)  
 * Protected routes via **Flask-Login** ### 📅 Lifecycle Management
 * Detailed event metadata: Name, Department, Date, Faculty Head.
-* **Committee Management:** Store member roles, emails, and contact details.
-* **Meeting Scheduling:** Timeline storage with integration links (Google Meet, WhatsApp).
+* Committee Management: Store member roles, emails, and contact details.
+* Meeting Scheduling: Timeline storage with integration links (Google Meet, WhatsApp).
 
 ### 📧 Automation & Reporting
 * **Email Notifications:** Structured HTML emails sent to all committee members.
@@ -147,8 +147,7 @@ EventEdge follows a modular full-stack architecture:
 
 ## 🎥 Demo Video
 
-[Watch Full Demo](#)  
-https://drive.google.com/file/d/1Gzhg2wNOZy57DVyDogRPl1DcT--6_lSx/view?usp=sharing
+[Watch Full Demo](#) https://drive.google.com/file/d/1Gzhg2wNOZy57DVyDogRPl1DcT--6_lSx/view?usp=sharing
 
 ---
 
